@@ -7,18 +7,6 @@
     margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: swister, sans-serif;
-    font-weight: 500;
-}
-
-p {
-    font-family: tondo, sans-serif;
-}
-
 /* Menu */
 header {
     background-color: #fff;
@@ -131,6 +119,251 @@ nav {
         "k k k k"
         "f f f f";
 }
+
+.main-img {
+width: 100%
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main-img img {
+width: 100%;
+height: 100px;
+
+
+}
+
+.main-img-content {
+font-size: 30px;
+font-family: Montserrat;
+font-weight: 500;
+position: absolute;
+display: flex;
+justify-content: center;
+color: white;
+
+}
+
+.article-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.article-box {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.article-box img {
+    width: 250px;
+    height: 250px;
+    margin-top: 35px;
+}
+
+.article-box .content {
+    flex: 1;
+    width: 100%;
+    font-family: 'Baskerville'
+}
+
+.content > #row > div {
+  width: 100%;
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+#row > div > h1 {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    padding-top: 5px;
+    display: flex;
+    width: 100%;
+}
+
+#row > div > h2 {
+    font-size: 12px;
+    padding-bottom: 20px;
+    color: #707070;
+        font-weight: 300;
+        display: flex;
+
+}
+#row > div > h3 {
+    font-size: 12px;
+    color: black;
+    background-color: #f2e6de;
+    padding: 8px 8px 8px 8px;
+        font-weight: 300;
+        width: 75px;
+        display: flex;
+        justify-content: center;
+        font-family: Montserrat;
+}
+
+#row > a > h3 {
+    font-size: 12px;
+    color: black;
+    background-color: #f2e6de;
+    padding: 8px 8px 8px 8px;
+        font-weight: 300;
+        width: 75px;
+        display: flex;
+        justify-content: center;
+        font-family: Montserrat;
+}
+
+#koeb {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: flex-end;
+  margin-right: 35px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+
+.flere-knap {
+width: 100%;
+display: flex;
+justify-content: center;
+padding-top: 40px;
+padding-bottom: 100px;
+font-weight: 100 !important;
+
+
+}
+
+.flere-knap > a {
+  display: flex;
+  height: 35px;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-size: 13px;
+  color: white;
+  background-color: #B2BDB0;
+  text-decoration: none;
+}
+
+.flere-knap > a > h3 {
+  font-weight: 300 !important;
+}
+
+
+.sidebar {
+width: 300px;
+height: 300px;
+  padding-right: 20px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.sidebar > h1 {
+font-size: 17px;
+padding-bottom: 10px;
+color: 707070;
+font-family: Montserrat;
+font-weight: 500;
+}
+
+.streg {
+width: 120px;
+border-bottom: 1px solid;
+color: 707070;
+}
+
+.sidebar > h2 {
+font-size: 14px;
+padding-top: 17px;
+color: 707070;
+font-family: Montserrat;
+font-weight: 500;
+}
+
+.sidebar > ul > li > a {
+  text-decoration: none;
+  color: 707070;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.sidebar > ul {
+  padding-top: 10px;
+  list-style-type: none;
+}
+
+
+
+
+/* Footer */
+footer {
+  grid-area: f;
+  background-color: #B2BDB0;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+  text-align: left;
+  height: 100%;
+  justify-content: space-evenly;
+  width: 40%;
+  align-items: center;
+}
+
+#footer a {
+  text-decoration: none !important;
+  font-family: Montserrat;
+  font-weight: 300;
+  color: #fff;
+}
+
+#footer li {
+  display: block;
+}
+
+#footer li a {
+  font-size: 14px;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+.copyright {
+  background-color: #B2BDB0;
+  width: 60%;
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copyright p {
+  font-size: 10px;
+  color: #fff;
+  font-family: Montserrat;
+}
+
 
 
 /* Mobile menu - media queries*/
