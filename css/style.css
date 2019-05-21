@@ -27,11 +27,11 @@ header {
 }
 
 .logo1 {
-  width: 70px;
-  height: 50px;
+  width: 150px;
+  height: 30px;
   background-color: #fff;
   position: absolute;
-  top: 15px;
+  top: 25px;
 }
 
 nav {
@@ -109,6 +109,7 @@ nav {
     "l l l l l l l l l l l l"
     "p p p p p p p p p p p p"
     "s s s s s s s s s s s s"
+    "i i i i i i i i i i i i"
     "f f f f f f f f f f f f";
 }
 
@@ -148,6 +149,7 @@ nav {
 
 .square a {
   text-decoration: none;
+  padding: 3px;
 }
 
 .koekken {
@@ -330,6 +332,8 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  background-color: #fcfcfc;
 }
 
 .beauty img{
@@ -340,7 +344,7 @@ nav {
   flex-direction: column;
   display: flex;
   text-align: center;
-  padding-top: 70px;
+  justify-content: center;
 }
 
 #align h3{
@@ -348,10 +352,77 @@ nav {
   font-weight: 300;
   font-size: 25px;
   padding-bottom: 70px;
+
 }
 
+#align p{
+  font-family: 'baskerville';
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0 15%;
+  padding-bottom: 20px;
+  z-index: 10;
+}
 
+.button1 p{
+  font-family: Montserrat !important;
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  padding: 0 !important;
+  text-align: center;
+  padding: 15px 20px !important;
+  background-color: #F2E6DE;
+  width: 30%;
+}
 
+.button1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.logo4{
+  position: absolute;
+  z-index: 5;
+}
+
+.krydderier{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fcfcfc;
+}
+
+.krydderier img{
+  width: 50%;
+}
+
+.instagram-feed{
+  display: grid;
+  grid-area: i;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.instagram-feed h2{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+.feed{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.feed a{
+  padding: 3px 5px;
+}
 
 /* Slider */
 .slideshow-container {
@@ -383,6 +454,193 @@ nav {
     opacity: 1
   }
 }
+
+/* Vores Historie */
+
+.main-wrapper2{
+width: 100%;
+display: grid;
+background-color: #F2E6DE;
+grid-template-columns: repeat(12, 1fr);
+grid-template-areas:
+  "m m m m m m m m m m m m"
+  "a a a a a a a a a a a a"
+  "w w w w w w w w w w w w"
+  "z z z z z z z z z z z z"
+  "f f f f f f f f f f f f";
+}
+
+.main-title{
+  display: grid;
+  grid-area: m;
+  text-align: center;
+  padding: 8% 0;
+}
+
+.section1{
+  display: grid;
+  grid-area: a;
+  position: relative;
+  width: 100%;
+  padding-bottom: 18%;
+}
+
+.section2{
+  display: grid;
+  grid-area: w;
+  position: relative;
+  padding-bottom: 18%;
+}
+
+.section3{
+  display: grid;
+  grid-area: z;
+  position: relative;
+  padding-bottom: 18%;
+}
+
+.main-title h2{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.main-title h1{
+  font-family: 'baskerville';
+  font-weight: 300;
+  font-size: 38px;
+}
+
+.center{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section1 img, .section2 img, .section3 img, .section4 img{
+  width: 50%;
+  height: 100%;
+}
+
+.section1 h4, .section2 h4, .section3 h4, .section4 h4{
+  position: absolute;
+  background-color: #fff;
+  padding: 18px 60px;
+  left: 45%;
+  top: 60%;
+  font-size: 30px;
+  font-family: 'baskerville';
+  font-weight: 300;
+  z-index: 100;
+}
+
+.section2 h4{
+  top: 60%;
+  position: absolute;
+}
+
+.section3 h4{
+  top: 60%;
+  position: absolute;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.center img{
+  width: 10%;
+  height: auto !important;
+}
+
+.center h3{
+  font-size: 25px;
+  font-family: 'baskerville';
+  font-weight: 700;
+  text-align: center;
+}
+
+.center p{
+  width: 50%;
+  text-align: center;
+  font-family: 'baskerville';
+  padding-top: 30px;
+}
+
+
+/* Kontakt */
+
+.main-wrapper3{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-areas:
+  "m m m m m m m m m m m m"
+  "u u u u u u u u u u u u"
+  "y y y y y y y y y y y y"
+  "f f f f f f f f f f f f";
+}
+
+.section4{
+  display: grid;
+  grid-area: u;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.section4 h4{
+  top: 68%;
+  position: absolute;
+  background-color: #F2E6DE;
+  color: #000;
+}
+
+#kontakt-h3{
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+#p-kontakt{
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+.aabningstider{
+  grid-area: y;
+  display: grid;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.aabningstider h4{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Montserrat;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.flex2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex2 p{
+  padding: 30px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
 
 /* Footer */
 footer {
