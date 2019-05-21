@@ -139,7 +139,6 @@ color: white;
     flex: 1;
     align-items: flex-start;
     flex-direction: column;
-    width: 18;
     padding: 0 10px;
 }
 
@@ -867,6 +866,28 @@ grid-template-areas:
   text-align: center;
   font-family: Montserrat;
   font-weight: 300;
+}
+
+/* Inspiration */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  padding: 3%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 
