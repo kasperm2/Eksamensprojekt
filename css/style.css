@@ -233,6 +233,11 @@ color: white;
   text-decoration: none;
 }
 
+ #kropspleje:hover {
+background-color: #B2BDB0
+padding: 2px 2px 2px 2px;
+
+}
 
 .flere-knap {
 width: 100%;
@@ -301,13 +306,103 @@ font-weight: 500;
   font-size: 12px;
 }
 
+#kropspleje {
+background-color: #B2BDB0;
+padding: 3px 3px 3px 3px;
+color: white;
+
+
+}
+
 .sidebar > ul {
   padding-top: 10px;
   list-style-type: none;
 }
 
+.product-section {
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-bottom: 50px;
+}
+
+.produkt-billede {
+  padding-top: 120px;
+  padding-right: 8%;
+}
+
+#handlot {
+  width: 130%;
+}
+
+.product-content {
+width: 25%;
+display: flex;
+flex-direction: column;
+padding-left: 40px;
+padding-top: 120px;
+
+}
+
+.product-content > h5 {
+font-size: 10px;
+font-family: Montserrat;
+font-weight: 300;
+color: #707070;
+padding-bottom: 2px;
+}
+
+.product-content > h2 {
+font-size 25px;
+font-family: 'Baskerville';
+font-weight: 500;
+padding-bottom: 5px;
+}
+
+.product-content > p {
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 300;
+  color: #707070;
+  line-height: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid;
+  border-color: #707070;
+}
+
+.product-content > h4 {
+  padding-top: 15px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  padding-bottom: 12px;
+}
+
+#kurv {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  background-color: #B2BDB0;
+  padding: 8px 8px 8px 8px;
+  color: white;
+}
 
 
+.produkt {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.tilfoej {
+  padding-right: 99px;
+}
 
 /* Footer */
 footer {
