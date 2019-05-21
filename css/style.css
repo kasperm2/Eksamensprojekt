@@ -23,7 +23,7 @@ header {
   display: flex;
   align-items: center;
   margin-left: .5em;
-  color: #492628;
+  color: #707070;
 }
 
 .logo1 {
@@ -62,7 +62,7 @@ nav {
 }
 
 #main-nav a:hover {
-  color: #7e7f2f;
+  color: #000;
 }
 
 .active {
@@ -97,64 +97,62 @@ nav {
   height: 20px;
 }
 
-
-
 /* shop */
 .main-img {
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .kategori {
   display: grid;
   grid-area: k;
 }
 
 .main-img img {
-width: 100%;
-height: 100px;
+  width: 100%;
+  height: 100px;
 }
 
 .main-img-content {
-font-size: 30px;
-font-family: Montserrat;
-font-weight: 500;
-position: absolute;
-display: flex;
-justify-content: center;
-color: white;
-
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: 500;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 .article-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding-right: 2%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-right: 2%;
 }
 
 .article-box {
-    display: flex;
-    flex: 1;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 0 10px;
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 10px;
 }
 
 .article-box img {
-    width: 100%;
-    height: 100%;
-    margin-top: 35px;
+  width: 100%;
+  height: 100%;
+  margin-top: 35px;
 }
 
 .article-box .content {
-    flex: 1;
-    width: 100%;
-    font-family: 'Baskerville';
+  flex: 1;
+  width: 100%;
+  font-family: 'Baskerville';
 }
 
-.content > #row > div {
+.content>#row>div {
   width: 100%;
 }
 
@@ -163,46 +161,45 @@ color: white;
   flex-direction: row;
 }
 
-
-#row > div > h1 {
-    font-size: 16px;
-    color: black;
-    font-weight: 500;
-    padding-top: 5px;
-    display: flex;
-    width: 100%;
+#row>div>h1 {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  padding-top: 5px;
+  display: flex;
+  width: 100%;
 }
 
-#row > div > h2 {
-    font-size: 12px;
-    padding-bottom: 20px;
-    color: #707070;
-        font-weight: 300;
-        display: flex;
-
-}
-#row > div > h3 {
-    font-size: 12px;
-    color: black;
-    background-color: #f2e6de;
-    padding: 8px 8px 8px 8px;
-        font-weight: 300;
-        width: 75px;
-        display: flex;
-        justify-content: center;
-        font-family: Montserrat;
+#row>div>h2 {
+  font-size: 12px;
+  padding-bottom: 20px;
+  color: #707070;
+  font-weight: 300;
+  display: flex;
 }
 
-#row > a > h3 {
-    font-size: 12px;
-    color: black;
-    background-color: #f2e6de;
-    padding: 8px 8px 8px 8px;
-        font-weight: 300;
-        width: 75px;
-        display: flex;
-        justify-content: center;
-        font-family: Montserrat;
+#row>div>h3 {
+  font-size: 12px;
+  color: black;
+  background-color: #f2e6de;
+  padding: 8px 8px 8px 8px;
+  font-weight: 300;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+#row>a>h3 {
+  font-size: 12px;
+  color: black;
+  background-color: #f2e6de;
+  padding: 8px 8px 8px 8px;
+  font-weight: 300;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
 }
 
 #koeb {
@@ -214,24 +211,20 @@ color: white;
   text-decoration: none;
 }
 
- #kropspleje:hover {
-background-color: #B2BDB0
-padding: 2px 2px 2px 2px;
-
+#kropspleje:hover {
+  background-color: #B2BDB0 padding: 2px 2px 2px 2px;
 }
 
 .flere-knap {
-width: 100%;
-display: flex;
-justify-content: center;
-padding-top: 40px;
-padding-bottom: 100px;
-font-weight: 100 !important;
-
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  font-weight: 100 !important;
 }
 
-.flere-knap > a {
+.flere-knap>a {
   display: flex;
   height: 35px;
   width: 20%;
@@ -244,42 +237,41 @@ font-weight: 100 !important;
   text-decoration: none;
 }
 
-.flere-knap > a > h3 {
+.flere-knap>a>h3 {
   font-weight: 300 !important;
 }
 
-
 .sidebar {
-width: 300px;
-height: 300px;
+  width: 300px;
+  height: 300px;
   padding-right: 20px;
   padding-left: 40px;
   padding-top: 10px;
 }
 
-.sidebar > h1 {
-font-size: 17px;
-padding-bottom: 10px;
-color: 707070;
-font-family: Montserrat;
-font-weight: 500;
+.sidebar>h1 {
+  font-size: 17px;
+  padding-bottom: 10px;
+  color: 707070;
+  font-family: Montserrat;
+  font-weight: 500;
 }
 
 .streg {
-width: 120px;
-border-bottom: 1px solid;
-color: 707070;
+  width: 120px;
+  border-bottom: 1px solid;
+  color: 707070;
 }
 
-.sidebar > h2 {
-font-size: 14px;
-padding-top: 17px;
-color: 707070;
-font-family: Montserrat;
-font-weight: 500;
+.sidebar>h2 {
+  font-size: 14px;
+  padding-top: 17px;
+  color: 707070;
+  font-family: Montserrat;
+  font-weight: 500;
 }
 
-.sidebar > ul > li > a {
+.sidebar>ul>li>a {
   text-decoration: none;
   color: 707070;
   font-family: Montserrat;
@@ -288,23 +280,21 @@ font-weight: 500;
 }
 
 #kropspleje {
-background-color: #B2BDB0;
-padding: 3px 3px 3px 3px;
-color: white;
-
-
+  background-color: #B2BDB0;
+  padding: 3px 3px 3px 3px;
+  color: white;
 }
 
-.sidebar > ul {
+.sidebar>ul {
   padding-top: 10px;
   list-style-type: none;
 }
 
 .product-section {
-display: flex;
-flex-direction: row;
-justify-content: center;
-padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .produkt-billede {
@@ -317,30 +307,29 @@ padding-bottom: 50px;
 }
 
 .product-content {
-width: 25%;
-display: flex;
-flex-direction: column;
-padding-left: 40px;
-padding-top: 120px;
-
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 120px;
 }
 
-.product-content > h5 {
-font-size: 10px;
-font-family: Montserrat;
-font-weight: 300;
-color: #707070;
-padding-bottom: 2px;
+.product-content>h5 {
+  font-size: 10px;
+  font-family: Montserrat;
+  font-weight: 300;
+  color: #707070;
+  padding-bottom: 2px;
 }
 
-.product-content > h2 {
-font-size 25px;
-font-family: 'Baskerville';
-font-weight: 500;
-padding-bottom: 5px;
+.product-content>h2 {
+  font-size: 25px;
+  font-family: 'Baskerville';
+  font-weight: 500;
+  padding-bottom: 5px;
 }
 
-.product-content > p {
+.product-content>p {
   font-size: 14px;
   font-family: Montserrat;
   font-weight: 300;
@@ -351,7 +340,7 @@ padding-bottom: 5px;
   border-color: #707070;
 }
 
-.product-content > h4 {
+.product-content>h4 {
   padding-top: 15px;
   font-size: 20px;
   display: flex;
@@ -372,14 +361,14 @@ padding-bottom: 5px;
   color: white;
 }
 
-.boxes{
-    width: 65%;
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
+.boxes {
+  width: 65%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
 }
 
-.relaterede{
+.relaterede {
   font-family: Montserrat;
   font-size: 20px;
   padding: 4% 0;
@@ -387,11 +376,9 @@ padding-bottom: 5px;
   justify-content: center;
 }
 
-.relaterede h3{
+.relaterede h3 {
   font-weight: 300;
 }
-
-
 
 /* Forside */
 .main-wrapper {
@@ -491,13 +478,13 @@ padding-bottom: 5px;
   padding-bottom: 80px;
 }
 
-.citat h4{
+.citat h4 {
   font-family: 'baskerville';
   font-weight: 300;
   font-size: 20px;
 }
 
-.place{
+.place {
   display: flex;
   flex-direction: row;
 }
@@ -509,19 +496,19 @@ padding-bottom: 5px;
   margin-top: 50px;
 }
 
-.aabning{
+.aabning {
   padding-top: 80px;
   padding-bottom: 80px;
   font-family: Montserrat;
 }
 
-.aabning h4{
+.aabning h4 {
   font-size: 20px;
   font-weight: 500;
   padding-bottom: 20px;
 }
 
-.produkt-slider{
+.produkt-slider {
   display: grid;
   grid-area: p;
   margin-top: 70px;
@@ -529,7 +516,7 @@ padding-bottom: 5px;
   justify-content: center;
 }
 
-.produkt-slider h2{
+.produkt-slider h2 {
   text-align: center;
   font-family: Montserrat;
   font-size: 20px;
@@ -537,7 +524,7 @@ padding-bottom: 5px;
   padding-bottom: 25px;
 }
 
-.produkter{
+.produkter {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -545,17 +532,17 @@ padding-bottom: 5px;
   align-items: center;
 }
 
-.arrow{
+.arrow {
   height: 100%;
   display: flex;
 }
 
-
-.sortiment{
+.sortiment {
   display: grid;
   grid-area: s;
 }
-.beauty{
+
+.beauty {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -563,26 +550,25 @@ padding-bottom: 5px;
   background-color: #fcfcfc;
 }
 
-.beauty img{
+.beauty img {
   width: 50%;
 }
 
-#align{
+#align {
   flex-direction: column;
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
-#align h3{
+#align h3 {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 25px;
   padding-bottom: 70px;
-
 }
 
-#align p{
+#align p {
   font-family: 'baskerville';
   font-weight: 500;
   font-size: 20px;
@@ -591,7 +577,7 @@ padding-bottom: 5px;
   z-index: 10;
 }
 
-.button1 p{
+.button1 p {
   font-family: Montserrat !important;
   font-weight: 300 !important;
   font-size: 16px !important;
@@ -602,19 +588,19 @@ padding-bottom: 5px;
   width: 30%;
 }
 
-.button1{
+.button1 {
   width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 30px;
 }
 
-.logo4{
+.logo4 {
   position: absolute;
   z-index: 5;
 }
 
-.krydderier{
+.krydderier {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -622,18 +608,18 @@ padding-bottom: 5px;
   background-color: #fcfcfc;
 }
 
-.krydderier img{
+.krydderier img {
   width: 50%;
 }
 
-.instagram-feed{
+.instagram-feed {
   display: grid;
   grid-area: i;
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
-.instagram-feed h2{
+.instagram-feed h2 {
   text-align: center;
   font-family: Montserrat;
   font-size: 20px;
@@ -641,19 +627,18 @@ padding-bottom: 5px;
   padding-bottom: 50px;
 }
 
-.feed{
+.feed {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-.feed a{
+.feed a {
   padding: 3px 5px;
 }
 
 /* Slider */
 .slideshow-container {
-  max-width: 100%;
   position: relative;
   margin: 0px;
   background-color: #F2F2F2;
@@ -661,6 +646,12 @@ padding-bottom: 5px;
   text-align: center;
   display: grid;
   grid-area: j;
+  overflow: hidden;
+}
+
+.mySlide img {
+  width: 100%;
+  max-width: 100%;
 }
 
 .active {
@@ -683,28 +674,27 @@ padding-bottom: 5px;
 }
 
 /* Vores Historie */
-
-.main-wrapper2{
-width: 100%;
-display: grid;
-background-color: #F2E6DE;
-grid-template-columns: repeat(12, 1fr);
-grid-template-areas:
-  "m m m m m m m m m m m m"
-  "a a a a a a a a a a a a"
-  "w w w w w w w w w w w w"
-  "z z z z z z z z z z z z"
-  "f f f f f f f f f f f f";
+.main-wrapper2 {
+  width: 100%;
+  display: grid;
+  background-color: #F2E6DE;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "m m m m m m m m m m m m"
+    "a a a a a a a a a a a a"
+    "w w w w w w w w w w w w"
+    "z z z z z z z z z z z z"
+    "f f f f f f f f f f f f";
 }
 
-.main-title{
+.main-title {
   display: grid;
   grid-area: m;
   text-align: center;
   padding: 8% 0;
 }
 
-.section1{
+.section1 {
   display: grid;
   grid-area: a;
   position: relative;
@@ -712,33 +702,33 @@ grid-template-areas:
   padding-bottom: 18%;
 }
 
-.section2{
+.section2 {
   display: grid;
   grid-area: w;
   position: relative;
   padding-bottom: 18%;
 }
 
-.section3{
+.section3 {
   display: grid;
   grid-area: z;
   position: relative;
   padding-bottom: 18%;
 }
 
-.main-title h2{
+.main-title h2 {
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 300;
 }
 
-.main-title h1{
+.main-title h1 {
   font-family: 'baskerville';
   font-weight: 300;
   font-size: 38px;
 }
 
-.center{
+.center {
   width: 50%;
   display: flex;
   justify-content: center;
@@ -746,12 +736,12 @@ grid-template-areas:
   flex-direction: column;
 }
 
-.section1 img, .section2 img, .section3 img, .section4 img{
+.section1 img, .section2 img, .section3 img, .section4 img {
   width: 50%;
   height: 100%;
 }
 
-.section1 h4, .section2 h4, .section3 h4, .section4 h4{
+.section1 h4, .section2 h4, .section3 h4, .section4 h4 {
   position: absolute;
   background-color: #fff;
   padding: 18px 60px;
@@ -763,56 +753,54 @@ grid-template-areas:
   z-index: 100;
 }
 
-.section2 h4{
+.section2 h4 {
   top: 60%;
   position: absolute;
 }
 
-.section3 h4{
+.section3 h4 {
   top: 60%;
   position: absolute;
 }
 
-.flex{
+.flex {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.center img{
-  width: 10%;
+.center img {
+  width: 10% !important;
   height: auto !important;
 }
 
-.center h3{
+.center h3 {
   font-size: 25px;
   font-family: 'baskerville';
   font-weight: 700;
   text-align: center;
 }
 
-.center p{
+.center p {
   width: 50%;
   text-align: center;
   font-family: 'baskerville';
   padding-top: 30px;
 }
 
-
 /* Kontakt */
-
-.main-wrapper3{
-width: 100%;
-display: grid;
-grid-template-columns: repeat(12, 1fr);
-grid-template-areas:
-  "m m m m m m m m m m m m"
-  "u u u u u u u u u u u u"
-  "y y y y y y y y y y y y"
-  "f f f f f f f f f f f f";
+.main-wrapper3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "m m m m m m m m m m m m"
+    "u u u u u u u u u u u u"
+    "y y y y y y y y y y y y"
+    "f f f f f f f f f f f f";
 }
 
-.section4{
+.section4 {
   display: grid;
   grid-area: u;
   position: relative;
@@ -820,32 +808,32 @@ grid-template-areas:
   padding-bottom: 10%;
 }
 
-.section4 h4{
+.section4 h4 {
   top: 68%;
   position: absolute;
   background-color: #F2E6DE;
   color: #000;
 }
 
-#kontakt-h3{
+#kontakt-h3 {
   font-weight: 500;
   padding-bottom: 30px;
 }
 
-#p-kontakt{
+#p-kontakt {
   font-size: 20px;
   font-family: Montserrat;
   font-weight: 300;
 }
 
-.aabningstider{
+.aabningstider {
   grid-area: y;
   display: grid;
   width: 100%;
   padding-bottom: 10%;
 }
 
-.aabningstider h4{
+.aabningstider h4 {
   font-size: 25px;
   font-weight: 500;
   font-family: Montserrat;
@@ -853,7 +841,7 @@ grid-template-areas:
   padding-bottom: 25px;
 }
 
-.flex2{
+.flex2 {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -861,7 +849,7 @@ grid-template-areas:
   align-items: center;
 }
 
-.flex2 p{
+.flex2 p {
   padding: 30px;
   text-align: center;
   font-family: Montserrat;
@@ -869,7 +857,6 @@ grid-template-areas:
 }
 
 /* Inspiration */
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -890,6 +877,21 @@ grid-template-areas:
   width: 100%;
 }
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 /* Footer */
 footer {
@@ -946,6 +948,222 @@ footer {
   font-family: Montserrat;
 }
 
+@media all and (max-width: 600px) {
+
+  /* Shop */
+  .article-row {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .article-box img, .article-box .content {
+    width: 70%;
+  }
+
+  .article-box {
+    align-items: center;
+  }
+
+  .sidebar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .sidebar>ul, .streg, .sidebar h1 {
+    display: none;
+  }
+
+  .sidebar h2 {
+    background-color: #B2BDB0;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .flere-knap a {
+    padding: 15px 25px;
+    font-size: 10px;
+    width: 40%;
+  }
+
+  /* Forside */
+  .koekken {
+    width: 400px;
+    height: 400px;
+  }
+
+  .square {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .square a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .kategori h2 {
+    width: 40%;
+  }
+
+  .place {
+    flex-direction: column;
+  }
+
+  .citat {
+    width: 100%;
+    padding: 8% 3%;
+    border-bottom: 2px solid #fff;
+  }
+
+  .verticalline {
+    display: none;
+  }
+
+  .aabning {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 8% 0;
+  }
+
+  .produkter {
+    flex-direction: column;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .responsive img, .article-box .responsive {
+    width: 100% !important;
+  }
+
+  .beauty {
+    flex-direction: column;
+  }
+
+  .beauty img {
+    width: 100%;
+  }
+
+  .button1 {
+    padding-bottom: 30px;
+  }
+
+  #align {
+    padding: 50px 0;
+  }
+
+  .logo4 {
+    padding-top: 150px;
+  }
+
+  .krydderier {
+    flex-direction: column-reverse;
+  }
+
+  .krydderier img {
+    width: 100%;
+  }
+
+  /* kontakt */
+  .flex {
+    flex-direction: column;
+  }
+
+  .section1 img, .section2 img, .section3 img, .section4 img {
+    width: 80%;
+    height: auto;
+  }
+
+  .center {
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+   .section4 h4 {
+    top: 75%;
+    font-size: 20px;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 18px 20px;
+    left: 70%;
+  }
+
+  .section1 h4, .section3 h4, .section2 h4 {
+    top: 75%;
+    font-size: 20px;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 18px 20px;
+    left: 70%;
+    z-index: 100;
+  }
+
+  .section2 .reverse{
+    flex-direction: column-reverse !important;
+  }
+
+  /* Produkt */
+
+  .product-section{
+    flex-direction: column;
+  }
+
+  .product-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  #handlot{
+    width: 100%;
+  }
+
+  .produkt-billede{
+    padding: 0px;
+  }
+
+  .boxes{
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    padding-bottom: 50px;
+  }
+
+  /* footer */
+
+  #footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  footer{
+    height: auto;
+  }
+
+/* Inspiration */
+
+  .row{
+    padding: 9%;
+  }
+}
+
+
+
 /* Mobile menu - media queries*/
 /* Mobile menu */
 @media all and (max-width: 1200px) {
@@ -977,11 +1195,6 @@ footer {
   #main-nav {
     display: none;
     padding: 0;
-  }
-
-  .logo1 {
-    width: 85px;
-    height: 60px;
   }
 
   #main-nav li {
