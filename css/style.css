@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+ul{
+  list-style-type: none;
+}
+
 /* Menu */
 header {
   background-color: #fff;
@@ -131,6 +135,7 @@ nav {
   width: 100%;
   padding-right: 2%;
 }
+
 
 .article-box {
   display: flex;
@@ -380,6 +385,74 @@ nav {
   font-weight: 300;
 }
 
+
+/* Toggle button */
+
+.toggler {
+    width: 100%;
+    display: none;
+    text-align: center;
+  }
+
+  .buttons-guide{
+    width: 105%;
+    padding-top: 20px;
+  }
+
+  #button {
+    padding: 0.5em 5em;
+    text-decoration: none;
+    width: 33%;
+  }
+  #effect {
+    position: relative;
+    width: 100%;
+    padding: 0.4em;
+    border: none;
+    text-align: center;
+  }
+
+  #effect>ul>li>a{
+    text-decoration: none;
+    color: 707070;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  #effekt>ul {
+    padding-top: 10px;
+    list-style-type: none !important;
+  }
+
+  button, input[type="submit"], input[type="reset"] {
+  	background: none;
+  	color: inherit;
+  	border: none;
+  	padding: 0;
+  	font: inherit;
+  	cursor: pointer;
+  	outline: inherit;
+  }
+
+  .custom-button{
+    padding: 13px 20px !important;
+    background-color: #B2BDB0 !important;
+    width: 30%;
+    text-align: center;
+    font-size: 14px !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px !important;
+    transition: all 0.5s ease-in-out;
+    font-family: Montserrat !important;
+  }
+
+  .custom-button:hover{
+    box-shadow: 10px 11px 20px -6px rgba(0, 0, 0, 0.3);
+    color: #000;
+  }
+
 /* Forside */
 .main-wrapper {
   width: 100%;
@@ -423,6 +496,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   margin-top: 60px;
+  flex-wrap: wrap;
 }
 
 .square a {
@@ -432,8 +506,8 @@ nav {
 
 .koekken {
   background-image: url(../images/koekken.jpg);
-  width: 390px;
-  height: 390px;
+  width: 350px;
+  height: 350px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -649,9 +723,60 @@ nav {
   overflow: hidden;
 }
 
-.mySlide img {
-  width: 100%;
+.mySlides {
+  position: relative;
+}
+
+.mySlides img{
   max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.mySlides h1 {
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  font-size: 60px;
+  font-family: 'baskerville';
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.type p{
+  font-size: 15px;
+  font-family: Montserrat;
+  color: #000;
+  font-weight: 300;
+}
+
+.type{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.type a{
+  text-decoration: none;
+  padding: 13px 25px;
+  background-color: #f2e6de;
+}
+
+.type p:hover{
+  color: #fff;
 }
 
 .active {
@@ -955,10 +1080,15 @@ footer {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    padding-right: 0;
   }
 
   .article-box img, .article-box .content {
     width: 70%;
+  }
+
+  .toggler{
+    display: block;
   }
 
   .article-box {
@@ -978,10 +1108,7 @@ footer {
   }
 
   .sidebar h2 {
-    background-color: #B2BDB0;
-    padding: 10px 20px;
-    color: #fff;
-    margin-top: 20px;
+    display: none;
   }
 
   .flere-knap a {
@@ -1089,7 +1216,7 @@ footer {
     padding-bottom: 5%;
   }
 
-   .section4 h4 {
+  .section4 h4 {
     top: 75%;
     font-size: 20px;
     right: 0px;
@@ -1110,32 +1237,31 @@ footer {
     z-index: 100;
   }
 
-  .section2 .reverse{
+  .section2 .reverse {
     flex-direction: column-reverse !important;
   }
 
   /* Produkt */
-
-  .product-section{
+  .product-section {
     flex-direction: column;
   }
 
-  .product-content{
+  .product-content {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 30px;
   }
 
-  #handlot{
+  #handlot {
     width: 100%;
   }
 
-  .produkt-billede{
+  .produkt-billede {
     padding: 0px;
   }
 
-  .boxes{
+  .boxes {
     width: 100%;
     display: flex !important;
     flex-direction: column !important;
@@ -1143,7 +1269,6 @@ footer {
   }
 
   /* footer */
-
   #footer {
     flex-direction: column;
     justify-content: flex-start;
@@ -1151,236 +1276,234 @@ footer {
     padding: 10px 20px;
   }
 
-  footer{
+  footer {
     height: auto;
   }
 
-/* Inspiration */
-
-  .row{
+  /* Inspiration */
+  .row {
     padding: 9%;
   }
 }
 
+@media all and (min-width: 760px) and (max-width: 1000px) {
 
-@media all and (min-width: 760px) and (max-width: 1000px){
-/* Forside */
-   .square{
-     flex-wrap: wrap;
-   }
+  /* Forside */
+  .square {
+    flex-wrap: wrap;
+  }
 
-   .koekken{
-     width: 300px;
-     height: 300px;
-   }
+  .toggler{
+    display: block;
+  }
 
-   .square a{
-     display: flex;
-     justify-content: center;
-   }
+  .koekken {
+    width: 300px;
+    height: 300px;
+  }
 
-   .kategori h2{
+  .square a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .kategori h2 {
     width: 30%;
-   }
+  }
 
-   .citat h4{
-     font-size: 16px;
-   }
+  .citat h4 {
+    font-size: 16px;
+  }
 
-   .verticalline{
-     padding-right: 40px;
-     margin-top: 70px;
-   }
+  .verticalline {
+    padding-right: 40px;
+    margin-top: 70px;
+  }
 
-   .aabning p{
-     font-size: 14px;
-     width: 80%;
-     text-align: center;
-   }
+  .aabning p {
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+  }
 
-   .aabning h4{
-     font-size: 18px;
-     width: 80%;
-     justify-content: center;
-     display: flex;
-   }
+  .aabning h4 {
+    font-size: 18px;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+  }
 
-   .arrow {
-     display: none;
-   }
+  .arrow {
+    display: none;
+  }
 
-   .produkter{
-     flex-wrap: wrap;
-     padding: 10px 20px;
-   }
+  .produkter {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
 
-   .article-box{
-     flex: auto;
-   }
+  .article-box {
+    flex: auto;
+  }
 
-   .article-box img{
-     height: auto;
-   }
+  .article-box img {
+    height: auto;
+  }
 
-   .beauty {
-     flex-direction: column;
-   }
+  .beauty {
+    flex-direction: column;
+  }
 
-   .beauty img {
-     width: 100%;
-   }
+  .beauty img {
+    width: 100%;
+  }
 
-   .button1 {
-     padding-bottom: 30px;
-   }
+  .button1 {
+    padding-bottom: 30px;
+  }
 
-   #align {
-     padding: 50px 0;
-   }
+  #align {
+    padding: 50px 0;
+  }
 
-   .logo4 {
-     padding-top: 150px;
-   }
+  .logo4 {
+    padding-top: 150px;
+  }
 
-   .krydderier {
-     flex-direction: column-reverse;
-   }
+  .krydderier {
+    flex-direction: column-reverse;
+  }
 
-   .krydderier img {
-     width: 100%;
-   }
-   /* Shop */
-   .article-row {
-     flex-direction: column;
-     justify-content: center;
-     width: 100%;
-   }
+  .krydderier img {
+    width: 100%;
+  }
 
-   .article-box img, .article-box .content {
-     width: 60%;
-   }
+  /* Shop */
+  .article-row {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-right: 0;
+  }
 
-   .article-box {
-     align-items: center;
-   }
+  .article-box img, .article-box .content {
+    width: 60%;
+  }
 
-   .sidebar {
-     width: 100%;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     height: 100%;
-   }
+  .article-box {
+    align-items: center;
+  }
 
-   .sidebar>ul, .streg, .sidebar h1 {
-     display: none;
-   }
+  .sidebar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
 
-   .sidebar h2 {
-     background-color: #B2BDB0;
-     padding: 10px 20px;
-     color: #fff;
-     margin-top: 20px;
-   }
+  .sidebar>ul, .streg, .sidebar h1 {
+    display: none;
+  }
 
-   .flere-knap a {
-     padding: 15px 25px;
-     font-size: 10px;
-     width: 40%;
-   }
+  .sidebar h2 {
+    display: none;
+  }
 
-   /* Produkt */
+  .flere-knap a {
+    padding: 15px 25px;
+    font-size: 10px;
+    width: 40%;
+  }
 
-   .product-section{
-     flex-direction: column;
-     align-items: center;
-   }
+  /* Produkt */
+  .product-section {
+    flex-direction: column;
+    align-items: center;
+  }
 
-   .product-content{
-     width: 70%;
-     display: flex;
-     justify-content: center;
-     padding: 30px;
-   }
+  .product-content {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
 
-   #handlot{
-     width: 100%;
-     height: 60%;
-   }
+  #handlot {
+    width: 100%;
+    height: 60%;
+  }
 
-   .produkt-billede{
-     padding: 0px;
-     justify-content: center;
-     display: flex;
-     width: 60%;
-   }
+  .produkt-billede {
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+    width: 60%;
+  }
 
-   .boxes{
-     width: 100%;
-     display: flex !important;
-     flex-direction: column !important;
-     padding-bottom: 50px;
-   }
+  .boxes {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    padding-bottom: 50px;
+  }
 
-   /* kontakt & Vores Historie */
-   .flex {
-     flex-direction: column;
-   }
+  /* kontakt & Vores Historie */
+  .flex {
+    flex-direction: column;
+  }
 
-   .section1 img, .section2 img, .section3 img, .section4 img {
-     width: 80%;
-     height: auto;
-   }
+  .section1 img, .section2 img, .section3 img, .section4 img {
+    width: 80%;
+    height: auto;
+  }
 
-   .center {
-     width: 100%;
-     padding-bottom: 5%;
-   }
+  .center {
+    width: 100%;
+    padding-bottom: 5%;
+  }
 
-    .section4 h4 {
-     top: 75%;
-     font-size: 20px;
-     right: 0px;
-     display: flex;
-     justify-content: center;
-     padding: 18px 20px;
-     left: 70%;
-   }
+  .section4 h4 {
+    top: 75%;
+    font-size: 20px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 18px 20px;
+    left: 70%;
+  }
 
-   .section1 h4, .section3 h4, .section2 h4 {
-     top: 75%;
-     font-size: 20px;
-     right: 5%;
-     display: flex;
-     justify-content: center;
-     padding: 18px 20px;
-     left: 70%;
-     z-index: 100;
-   }
+  .section1 h4, .section3 h4, .section2 h4 {
+    top: 75%;
+    font-size: 20px;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 18px 20px;
+    left: 70%;
+    z-index: 100;
+  }
 
-   .section2 .reverse{
-     flex-direction: column-reverse !important;
-   }
+  .section2 .reverse {
+    flex-direction: column-reverse !important;
+  }
 
-   /* footer */
+  /* footer */
+  #footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
 
-   #footer {
-     flex-direction: column;
-     justify-content: flex-start;
-     align-items: flex-start;
-     padding: 10px 20px;
-   }
+  footer {
+    height: auto;
+  }
 
-   footer{
-     height: auto;
-   }
-
-   /* Inspiration */
-
-   .row{
-     padding: 9%;
-   }
-
+  /* Inspiration */
+  .row {
+    padding: 9%;
+  }
 }
 
 /* Mobile menu - media queries*/
