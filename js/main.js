@@ -1,4 +1,5 @@
 
+// Start Jquery toggle function - https://jqueryui.com/toggle
 
 $( function() {
   console.log('test jq');
@@ -27,3 +28,5 @@ $( function() {
 
   });
 } );
+
+// Slut Jquery toggle function - https://jqueryui.com/toggle

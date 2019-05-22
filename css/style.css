@@ -1143,6 +1143,14 @@ footer {
     height: 400px;
   }
 
+  .mySlides h1 {
+    font-size: 40px;
+  }
+
+  .type {
+   top: 60px;
+ }
+
   .square {
     flex-direction: column;
     justify-content: center;
@@ -1320,6 +1328,14 @@ footer {
   #effect{
     display: none;
   }
+
+  .mySlides h1 {
+    font-size: 50px;
+  }
+
+  .type {
+   top: 70px;
+ }
 
   .koekken {
     width: 300px;
@@ -1530,7 +1546,9 @@ footer {
   }
 }
 
-/* Mobile menu - media queries*/
+
+
+/* Mobile menu - media queries* - 1. semester eksamensprojekt Kasper */
 /* Mobile menu */
 @media all and (max-width: 1200px) {
 
