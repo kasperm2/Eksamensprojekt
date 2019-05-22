@@ -948,7 +948,7 @@ footer {
   font-family: Montserrat;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 759px) {
 
   /* Shop */
   .article-row {
@@ -1074,7 +1074,7 @@ footer {
     width: 100%;
   }
 
-  /* kontakt */
+  /* kontakt & Vores Historie */
   .flex {
     flex-direction: column;
   }
@@ -1163,6 +1163,225 @@ footer {
 }
 
 
+@media all and (min-width: 760px) and (max-width: 1000px){
+/* Forside */
+   .square{
+     flex-wrap: wrap;
+   }
+
+   .koekken{
+     width: 300px;
+     height: 300px;
+   }
+
+   .square a{
+     display: flex;
+     justify-content: center;
+   }
+
+   .kategori h2{
+    width: 30%;
+   }
+
+   .citat h4{
+     font-size: 16px;
+   }
+
+   .verticalline{
+     padding-right: 40px;
+     margin-top: 70px;
+   }
+
+   .aabning p{
+     font-size: 14px;
+     width: 80%;
+     text-align: center;
+   }
+
+   .aabning h4{
+     font-size: 18px;
+     width: 80%;
+     justify-content: center;
+     display: flex;
+   }
+
+   .arrow {
+     display: none;
+   }
+
+   .produkter{
+     flex-wrap: wrap;
+     padding: 10px 20px;
+   }
+
+   .article-box{
+     flex: auto;
+   }
+
+   .article-box img{
+     height: auto;
+   }
+
+   .beauty {
+     flex-direction: column;
+   }
+
+   .beauty img {
+     width: 100%;
+   }
+
+   .button1 {
+     padding-bottom: 30px;
+   }
+
+   #align {
+     padding: 50px 0;
+   }
+
+   .logo4 {
+     padding-top: 150px;
+   }
+
+   .krydderier {
+     flex-direction: column-reverse;
+   }
+
+   .krydderier img {
+     width: 100%;
+   }
+   /* Shop */
+   .article-row {
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+   }
+
+   .article-box img, .article-box .content {
+     width: 60%;
+   }
+
+   .article-box {
+     align-items: center;
+   }
+
+   .sidebar {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100%;
+   }
+
+   .sidebar>ul, .streg, .sidebar h1 {
+     display: none;
+   }
+
+   .sidebar h2 {
+     background-color: #B2BDB0;
+     padding: 10px 20px;
+     color: #fff;
+     margin-top: 20px;
+   }
+
+   .flere-knap a {
+     padding: 15px 25px;
+     font-size: 10px;
+     width: 40%;
+   }
+
+   /* Produkt */
+
+   .product-section{
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .product-content{
+     width: 70%;
+     display: flex;
+     justify-content: center;
+     padding: 30px;
+   }
+
+   #handlot{
+     width: 100%;
+     height: 60%;
+   }
+
+   .produkt-billede{
+     padding: 0px;
+     justify-content: center;
+     display: flex;
+     width: 60%;
+   }
+
+   .boxes{
+     width: 100%;
+     display: flex !important;
+     flex-direction: column !important;
+     padding-bottom: 50px;
+   }
+
+   /* kontakt & Vores Historie */
+   .flex {
+     flex-direction: column;
+   }
+
+   .section1 img, .section2 img, .section3 img, .section4 img {
+     width: 80%;
+     height: auto;
+   }
+
+   .center {
+     width: 100%;
+     padding-bottom: 5%;
+   }
+
+    .section4 h4 {
+     top: 75%;
+     font-size: 20px;
+     right: 0px;
+     display: flex;
+     justify-content: center;
+     padding: 18px 20px;
+     left: 70%;
+   }
+
+   .section1 h4, .section3 h4, .section2 h4 {
+     top: 75%;
+     font-size: 20px;
+     right: 5%;
+     display: flex;
+     justify-content: center;
+     padding: 18px 20px;
+     left: 70%;
+     z-index: 100;
+   }
+
+   .section2 .reverse{
+     flex-direction: column-reverse !important;
+   }
+
+   /* footer */
+
+   #footer {
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     padding: 10px 20px;
+   }
+
+   footer{
+     height: auto;
+   }
+
+   /* Inspiration */
+
+   .row{
+     padding: 9%;
+   }
+
+}
 
 /* Mobile menu - media queries*/
 /* Mobile menu */
