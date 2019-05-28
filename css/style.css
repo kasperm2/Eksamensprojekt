@@ -147,7 +147,6 @@ nav {
 
 .article-box img {
   width: 100%;
-  height: 100%;
   margin-top: 35px;
 }
 
@@ -251,6 +250,15 @@ nav {
   color: #707070;
   font-family: Montserrat;
   font-weight: 500;
+}
+
+.stoerrelse2{
+  font-size: 14px !important;
+  padding-top: 10px !important;
+}
+
+.padding{
+  padding-bottom: 3%;
 }
 
 .streg {
@@ -1119,7 +1127,7 @@ footer {
     display: none;
   }
 
-  .sidebar h2 {
+  .sidebar>h3, .sidebar h2 {
     display: none;
   }
 
@@ -1315,6 +1323,8 @@ footer {
     flex-wrap: wrap;
   }
 
+
+
   .toggler{
     display: block;
   }
@@ -1425,6 +1435,10 @@ footer {
     width: 60%;
   }
 
+  .responsive img, .article-box .responsive {
+    width: 90% !important;
+  }
+
   .article-box {
     align-items: center;
   }
@@ -1441,7 +1455,7 @@ footer {
     display: none;
   }
 
-  .sidebar h2 {
+  .sidebar>h3, .sidebar h2  {
     display: none;
   }
 
